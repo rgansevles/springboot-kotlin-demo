@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.RestController
 class DemoController {
 
     @RequestMapping
-    fun hello(): String {
-        return "Hello!"
-    }
+    fun hello(): String = "Hello!"
 }
 
